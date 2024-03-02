@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004886168245",
+    "project_id": "dio-project-c6428",
+    "storage_bucket": "dio-project-c6428.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004886168245:android:8c6d0e3539639bf93b64fc",
+        "android_client_info": {
+          "package_name": "com.example.dio_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAIC8g4PfLAFK3QrvP_PlexYZmy0qhNbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
