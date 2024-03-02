@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get.dart';
 import 'package:path_provider/path_provider.dart';
-import '../models/firebase_storage_model.dart';
+import 'firebase_storage_model.dart';
 
 class FirebaseStorageController extends GetxController {
 
@@ -31,7 +31,7 @@ class FirebaseStorageController extends GetxController {
     }
 
 
-    // download with dio
+    ///  download file with dio
     var url = await ref.getDownloadURL();
     await Dio().download(url, '${downloadDirectory.path}/${ref.name}',
         onReceiveProgress: (received, total){
@@ -51,6 +51,8 @@ class FirebaseStorageController extends GetxController {
       await downloadTask.then((p0) {
         print('download completed'); });
 
+
+      /// download file with dio
       // Dio download
       // var url = await ref.getDownloadURL();
       // await Dio().download(url, '${downloadDirectory.path}/${ref.name}',
